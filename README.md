@@ -138,9 +138,10 @@ Now in the bottom left windows search bar type 'IIS' ➡️ Right click ➡️ R
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now register PHP within IIS, Click Register new PHP version ➡️ Click on the '...' ➡️ Look for C:\PHP ➡️ Click Ok
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
+![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/c08b5039-6042-4cf8-ae58-2ca56144a790)
+
+
 <br />
