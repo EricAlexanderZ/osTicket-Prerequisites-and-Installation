@@ -74,15 +74,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 First we must Install/Enable IIS in Windows Control Panel under the programs folder.
-To get to this page you can hit control or cmd 'R' depending on if you're using RDP. You'll have a small 'Run Window' pop up on the left lower corner of your screen. Proceed to type "Control" hit ok and you should now see the Control Panel.
+To get to this page you can hit control or cmd 'R' depending on if you're using RDP. You'll have a small 'Run' Window pop up on the left lower corner of your screen. Proceed to type "Control" hit ok and you should now see the Control Panel.
 </p>
 
 ![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/96316e28-512e-40c8-bcd1-7d3d91cafaad)
 
 
+<br />
+
 
 <p>
-Next: Click Turn windows features on or off. You ahould have this window popup check IIS, World Wide Web Services, Application Dev. Feat. and Common HTTP Feat. Once those are checked off you can then hit on the small '+' icon for the drop menu. Ensure to check off CGI. After 
+Next, click Turn windows features on or off. You should have this window popup check off the following:
+</p>
+
+- IIS✔️
+- World Wide Web Services✔️ 
+- Application Dev. Feat.✔️ 
+- Common HTTP Feat.✔️
+<p>
+Once those are checked off you can then click the '+' icon next to Application Dev. Feat. for the drop menu to show. Ensure to check off CGI✔️. Next, click the '+' icon beside Common HTTP Feat. and ensure all the boxes are checked off.✔️
 </p>
 
 ![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/816ca4d6-c52d-45df-bedb-86f4f3c3060d)
@@ -90,21 +100,42 @@ Next: Click Turn windows features on or off. You ahould have this window popup c
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+You can test IIS to ensure you've got it up and running by simply opening a browser and typing 127.0.0.1 and if you see an the same image popup on your screen, that means you did everything correctly. 
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
+![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/3f89e59c-5d48-4163-b020-691d90b7abf0)
+
+
 <br />
+
+
+<p>
+Create a new folder in the C:\ drive and name it 'PHP' ➡️ Then download and Install all of the following in this order and follow the steps:
+</p>
+
+- PHP Manager V1.5.0msi
+- Rewrite_amd64_en-US.msi
+- PHP 7.3.8 ➡️ Right click and Extract the files into C:\PHP  
+- Download and Install VC_redist.x86.exe.
+- Download and Install MySQL 5.5.62 ➡️ Click Typical Setup ➡️ Launch Configuration Wizard & install ➡️ Select Standard Configuration ➡️ Set a password and note it down.
+
+![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/c88e99d2-4d8d-4f08-a35d-1f5a1157be51)
+
+
+<br />
+
+
+<p>
+Now in the bottom left windows search bar type 'IIS' ➡️ Right click ➡️ Run as administrator
+</p>
+
+![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/0895dfb4-1faf-4ec9-9d53-724dbac2cf2c)
+
+
+<br />
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
