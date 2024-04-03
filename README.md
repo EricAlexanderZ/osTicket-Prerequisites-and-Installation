@@ -71,12 +71,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+
 <p>
-<img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First we must Install/Enable IIS in Windows Control Panel under the programs folder.
+To get to this page you can hit control or cmd 'R' depending on if you're using RDP. You'll have a small 'Run Window' pop up on the left lower corner of your screen. Proceed to type "Control" hit ok and you should now see the Control Panel.
 </p>
+
+![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/96316e28-512e-40c8-bcd1-7d3d91cafaad)
+
+
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next: Click Turn windows features on or off. You ahould have this window popup check IIS, World Wide Web Services, Application Dev. Feat. and Common HTTP Feat. Once those are checked off you can then hit on the small '+' icon for the drop menu. Ensure to check off CGI. After 
 </p>
+
+![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/816ca4d6-c52d-45df-bedb-86f4f3c3060d)
+
+
 <br />
 
 <p>
