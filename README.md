@@ -1,5 +1,3 @@
-# osTicket-Prerequisites-and-Installation
-This image tutorial outlines and describes the prerequisites needed for the installation of osTicket software.
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
