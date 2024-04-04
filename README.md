@@ -326,5 +326,5 @@ C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 
 <p>
-DONE! NEXT IS THE POST INSTALLATION SETUP OF OSTICKET!
+DONE! Check out the following tutorial on osTicket: Post Installation Configuration (https://github.com/EricAlexanderZ/osTicket-post-installation-configuration)
 </p>
