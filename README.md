@@ -17,7 +17,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>Written List of Steps</h2>
 
 - Install/Enable IIS in Windows Control Panel under "Programs"
 - Download & Install PHP Manager for IIS
@@ -138,10 +138,63 @@ Now in the bottom left windows search bar type 'IIS' ➡️ Right click ➡️ R
 
 
 <p>
-Now register PHP within IIS, Click Register new PHP version ➡️ Click on the '...' ➡️ Look for C:\PHP ➡️ Click Ok
+Now register PHP within IIS, Click Register new PHP version ➡️ Click on the '...' ➡️ Look for C:\PHP ➡️ Click Ok 
 </p>
 
 ![image](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/c08b5039-6042-4cf8-ae58-2ca56144a790)
 
 
 <br />
+
+
+<p>
+Now Restart the IIS Server by clicking 'Restart' on the right side, This will refresh the server so that your changes get implemented ✅
+</p>
+
+![Restart IIS Server](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/08e96c55-11f8-48e3-909e-723eb1478e45)
+
+<br />
+
+
+<p>
+Next, Install osTicket v1.15.8
+</p>
+- Extract and drag the “upload” folder to c:\inetpub\wwwroot
+- Within c:\inetpub\wwwroot, Rename the “upload” folder to “osTicket”
+
+![Ensure to download and install all the following ](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/86060522-b41d-4566-a154-ccdcc1fc45d6)
+
+
+<br />
+
+
+<p>
+Now Restart the IIS Server by clicking 'Restart' on the right side, This will refresh the server so that your changes get implemented ✅ 
+</p>
+
+![Restart IIS Server](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/17fdfe92-a91a-473c-a1e3-75be1c8763f7)
+
+
+<br />
+
+
+<p>
+Go to Sites → Default → osTicket → On the right, click “Browse *:80” | Some extensions won't be enabled
+So go back to IIS and follow the steps below: 
+</p>
+
+- Sites 
+- Default 
+- osTicket 
+- Double-click PHP Manager 
+- Click “Enable or disable an extension”
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opcache.dll
+- Refresh the osTicket site in your browse, observe the changes
+
+![Restart IIS Server](https://github.com/EricAlexanderZ/osTicket-Prerequisites-and-Installation/assets/99912710/6590390d-f451-44d3-937e-a4b44f44ad30)
+
+
+<br />
+
